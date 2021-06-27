@@ -25,7 +25,7 @@ public class BrowserStackAndroidSelenideTests extends TestBase {
 
     @Test
     @DisplayName("Check settings menu")
-    void settingTest() {
+    void settingsTest() {
         step("Click menu button", () -> {
             $(MobileBy.id("org.wikipedia.alpha:id/menu_overflow_button")).click();
         });
